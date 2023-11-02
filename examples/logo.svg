@@ -1,9 +1,10 @@
 
         <svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
 
-            <rect x="50" y="50" width="200" height="200" fill="silver" />
-          
-            <text x="150" y="125" font-size="30" text-anchor="middle" fill="yellow">bmk</text>
-          
-        </svg>
+        <polygon points="150,15 50,185 250,185" fill="purple" />
+      
+        <text x="150" y="100" font-size="30" text-anchor="middle" fill="blue">bmk</text>
+      
+      </svg>
+      
         

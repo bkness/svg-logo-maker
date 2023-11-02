@@ -32,3 +32,6 @@ If you have any questions you can email me at kbrandon863@gmail.com if you want 
 
 ## Deployed 
 The code can be viewed [here.](https://github.com/bkness/svg-logo-maker)
+
+Here is a video showcasing the logo maker:
+[SVG Logo Maker](https://github.com/bkness/svg-logo-maker/assets/123907755/47b6171b-1443-48f7-8818-0f7659744901)
