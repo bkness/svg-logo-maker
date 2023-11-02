@@ -45,7 +45,7 @@ function generateSvg(data) {
 function init() {
     try {
         inquirer.prompt(questions).then(data => {
-            fs.writeFile('./examples/shape.svg', generateSvg(data)).then(() => {
+            fs.writeFile('./examples/logo.svg', generateSvg(data)).then(() => {
                 console.log('Logo was successful');
             }).catch(err => {
                 throw err; // if an error happens while writing the file throw it
