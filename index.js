@@ -1,13 +1,13 @@
 const inquirer = require('inquirer');
 const fs = require('fs').promises;
-const { Triangle, Square, Circle } = require('inquirer');
+const { Triangle, Circle, Square } = require('./lib/shapes.js');
 
 const questions = [
     {
         type: 'list',
         name: 'shape',
         message: 'What shape would you like?',
-        choices: ['Square', 'Triangle', 'Circle']
+        choices: ['Triangle', 'Circle', 'Square']
     },
     {
         type: 'input',
@@ -17,7 +17,7 @@ const questions = [
     {
         type: 'input',
         name: 'text',
-        message: 'Which three charachters do you want?'
+        message: 'Which three characters do you want?'
     },
     {
         type: 'input',
@@ -27,17 +27,23 @@ const questions = [
 ]
 
 function generateSvg(data) {
-    if (data.shape === 'Square') {
-        const shape = new Square(data.textColor, data.color, data.text)
-        return shape.render()
-    }
+    if (data.shape === 'Triangle') {
+        const shape = new Triangle(data.textColor, data.color, data.text);
+        return shape.render();
+    } else if (data.shape === 'Circle') {
+        const shape = new Circle(data.textColor, data.color, data.text);
+        return shape.render() 
+    } else if (data.shape === 'Square') {
+        const shape = new Square(data.textColor, data.color, data.text);
+        return shape.render(); // calling a render that doesnt exist
+
     // more shapes 
-}
+}}
 // making a render for each shape each needs a slightly diff attribute 
 function init() { 
     inquirer.prompt(questions).then(data => {
     fs.writeFile('./examples/shape.svg', generateSvg(data)).then(err => {
-        err ? console.error(err) : console.log('Readme was successful!')
+        err ? console.error(err) : console.log('Logo was successful')
     })
     })
 };
