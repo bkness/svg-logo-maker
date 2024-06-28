@@ -14,7 +14,10 @@ const questions = [
     {
         type: 'input',
         name: 'color',
-        message: 'What color would you like?'
+        message: 'What color would you like?',
+        style: {
+            text: 'purple'
+        },
     },
     {
         type: 'input',

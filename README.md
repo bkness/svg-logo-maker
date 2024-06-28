@@ -8,30 +8,25 @@ Here is an app I created that lets the user make a simple logo based on a set of
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Test](#test)
 - [Contributing](#contributing)
-
 - [Questions](#questions-📝)
 
 ## Installation 
-npm i
+``npm install``
 
 ## Usage
-The user will need to install the packages using nodejs. Then the user will need to run node on the index file in the integrated terminal 
+To use SVG Logo Maker, follow these steps:
 
-## Test 
-npm test
+1. Install the required packages using Node.js.
+2. Run the index file in your integrated terminal using Node.
 
 ## Contributing
-Fork the project and open a pull request with your new code
-
-
+Contributions are welcome! If you would like to contribute to SVG Logo Maker, fork the repository and open a pull request with your changes.
 
 ## Questions
-If you have any questions you can email me at kbrandon863@gmail.com if you want to see more of my work, visit my GitHub at [bkness](https://github.com/bkness)
+If you have any questions, feel free to reach out via email at kbrandon863@gmail.com if you want to see more of my work, visit my GitHub at [bkness](https://github.com/bkness)
 
 ## Deployed 
-The code can be viewed [here.](https://github.com/bkness/svg-logo-maker)
+Explore the code for the SVG Logo Maker [here.](https://github.com/bkness/svg-logo-maker)
 
-Here is a video showcasing the logo maker:
-[SVG Logo Maker](https://github.com/bkness/svg-logo-maker/assets/123907755/47b6171b-1443-48f7-8818-0f7659744901)
+Watch a video showcasing the SVG Logo Maker [here](https://github.com/bkness/svg-logo-maker/assets/123907755/47b6171b-1443-48f7-8818-0f7659744901)
